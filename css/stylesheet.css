@@ -1,5 +1,7 @@
 body {
-    background-color: #363636;
+    background-image: url("../media/background-2.jpg");
+    background-size: 120%;
+    /* background-color: #363636; */
 }
 
 p {
