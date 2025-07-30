@@ -1,0 +1,15 @@
+#landing {
+    display: unset;
+}
+
+#about {
+    display: none;
+}
+
+#work {
+    display: none;
+}
+
+#nav {
+    display: none;
+}

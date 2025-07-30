@@ -20,7 +20,7 @@ function helloWorld(text) {
         }
         display.textContent = text.substring(0, index);
         index++;
-    }, 50);
+    }, 55);
 }
 
 aboutButton.addEventListener('mouseover', () => helloWorld("About Me"));

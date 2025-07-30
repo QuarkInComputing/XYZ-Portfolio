@@ -7,7 +7,8 @@
         <title>Jack | Portfolio</title>
 
         <!--Stylesheets-->
-        <link id="theme-desktop" rel="stylesheet" href="css/stylesheet.css"> 
+        <link id="theme-desktop" rel="stylesheet" href="./css/stylesheet.css"> 
+        <link id="sections" rel="stylesheet" href="./css/sections.css">
 
         <!-- Google Font-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,21 +18,59 @@
     </head>
 
     <body>
-        <div class="landingcard">
-            <div class="landingheader">
-                <p class="landingtitle">Jack McLean-Wilson</p>
-                <p class="landingsubtitle">Currently studying: BSc Computer Science</p>
+        <section id="landing">
+            <div class="landingcard">
+                <div class="landingheader">
+                    <p class="landingtitle">Jack McLean-Wilson</p>
+                    <p class="landingsubtitle">Currently studying: BSc Computer Science</p>
+                </div>
+                <div class="helloworld" id="helloworld">
+                    Hello World
+                </div>
+                <div class="landingbuttons">
+                    <button id="aboutbutton" onclick="showSection('about'); return false;">About Me</button>
+                    <button id="myworkbutton" onclick="showSection('work'); return false;">My Work</button>
+                    <button id="blogbutton">Blog</button>
+                </div>
             </div>
-            <div class="helloworld" id="helloworld">
+        </section>
+
+        <div id="nav">
+            <div class="helloworldsmall" id="helloworld">
                 Hello World
             </div>
-            <div class="landingbuttons">
-                <button id="aboutbutton">About Me</button>
-                <button id="myworkbutton">My Work</button>
-                <button id="blogbutton">Blog</button>
-            </div>
+            <a href="#" id="aboutlink">About Me</a>
+            <a href="#" id="myworklink">My Work</a>
+            <a href="#" id="bloglink">Blog</a>
         </div>
+
+        <section id="about">
+            <p class="sectionheader">
+                Who Am I
+            </p>
+            <div class="contentbox">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <div class="headshot">
+                    <img src="./media/headshot.png">
+                    <p class="figtext">Fig 1: Jack's face</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="work">
+            <p>
+                Work section
+            </p>
+        </section>
     </body>
 
     <script type="module" src="./js/helloworld.js"></script>
+    <script src="./js/sections.js"></script>
 </html>
