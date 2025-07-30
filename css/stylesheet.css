@@ -1,0 +1,79 @@
+body {
+    background-color: #363636;
+}
+
+p {
+    color: #FFFEEE;
+}
+
+.landingcard {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #151527; 
+    border-radius: 20px;
+    box-shadow: 0 0 10px #151553;
+    margin-top: 20%;;
+}
+
+.landingheader {
+    font-family: "Robotto", sans-serif;
+}
+
+.landingtitle {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+.landingsubtitle {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    color: #AAAAAA;
+}
+
+.helloworld {
+    font-size: 48px;
+    padding: 15px;
+    color: #e85e23;
+    font-family: "Coral Pixels", serif;
+}
+
+.landingbuttons {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.landingbuttons button {
+    background: none;
+    padding: 8px;
+    width: 85px;
+    color: #FFFEEE;
+    transition: 0.6s;
+}
+
+#myworkbutton {
+    width: 100px;
+}
+
+#aboutbutton:hover {
+    background-color: #005EB8;
+    border-color: #005EB8;
+    transition: 0.6s;
+}
+
+#myworkbutton:hover {
+    background-color: #e85e23;
+    border-color: #e85e23;
+    transition: 0.6s;
+}
+
+#blogbutton:hover {
+    background-color: #ab0300;
+    border-color: #ab0300;
+    transition: 0.6s;
+}
