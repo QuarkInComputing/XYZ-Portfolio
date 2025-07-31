@@ -139,6 +139,7 @@ p {
     align-items: flex-start; 
     gap: 20px;
     margin-top: unset;
+    background-color: rgba(21, 21, 39, 0.5);
 }
 
 .contentbox p {
