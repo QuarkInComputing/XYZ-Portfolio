@@ -143,9 +143,22 @@ p {
 }
 
 .contentbox p {
+    /*font-family: " Sansation", sans-serif;*/
     flex: 1; 
     padding-left: 10px;
 }
+
+.contactbox {
+    margin-top: 25px;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: #FFFFFF;
+    display: grid;
+    gap: 20px;
+    margin-top: unset;
+    background-color: rgba(21, 21, 39, 0.5);
+}
+
 
 .headshot {
     border-left-style: dashed;
@@ -172,8 +185,43 @@ p {
     font-weight: bold;
     font-size: 24px;
     margin-bottom: unset;
+    text-align: center;
 }
 
 .figtext {
     color: #AAAAAA;
+}
+
+.boringlink {
+    text-decoration: none;
+    color: #0067b5;
+    font-weight: bold;
+    transition: 0.8s;
+}
+
+.boringlink:hover {
+    color: #006725;
+    transition: 0.8s;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+.centertext {
+    text-align: center;
+}
+
+.socialicons {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.icon {
+    width: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
 }

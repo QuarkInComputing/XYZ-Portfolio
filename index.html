@@ -13,7 +13,7 @@
         <!-- Google Font-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Coral+Pixels&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Coral+Pixels&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
         
     </head>
 
@@ -39,8 +39,8 @@
             <div class="helloworldsmall" id="smallhelloworld">
                 Hello World
             </div>
-            <a href="#" id="aboutlink">About Me</a>
-            <a href="#" id="myworklink">My Work</a>
+            <a href="#" id="aboutlink" onclick="showSection('about'); return false;">About Me</a>
+            <a href="#" id="myworklink" onclick="showSection('work'); return false;">My Work</a>
             <a href="#" id="bloglink">Blog</a>
         </div>
 
@@ -58,17 +58,30 @@
                     <br>
                     I'm currently on the lookout for next steps after I leave higher education (expected mid 2026.)
                     <br><br>
-                    Outside of my education you can find me working on my own <a href="#">personal projects</a>, and when I need to take some time to relax you'll catch me reading
+                    Outside of my education you can find me working on my own <a class="boringlink" href="#">personal projects</a>, and when I need to take some time to relax you'll catch me reading
                     science fiction or watching Star Trek.
                     <br><br>
                     It is a personal mission of mine to make tech as accessible to as many people as possible. Technology has helped me greatly during my lifetime not only as a deep interest
-                    but as a tool used to aid me in day to day life. If in my lifetime I can benefit peoples life thanks to something I helped create then I will feel truly fulfilled.
+                    but as a tool used to aid me in day to day life. It is a life goal to develop technology & software that can help others as it has done so much for me.
                     <br><br>
                     <b>Thanks for reading!</b>
+                    <br><br>
+                    <a class="boringlink" href="#">Download my CV!</a>
                 </p>
                 <div class="headshot">
                     <img src="./media/headshot.png">
                     <p class="figtext">Fig 1: Jack's face</p>
+                </div>
+            </div>
+
+            <p class="sectionheader">
+                Contact Me
+            </p>
+            <div class="contactbox">
+                <p class="centertext"><b>jackmcleanwilson@gmail.com</b></p>
+                <div class="socialicons">
+                    <a href="https://github.com/QuarkInComputing"><img class="icon" src="./media/icons/github.png"></a>
+                    <a href="https://www.linkedin.com/in/jack-mclean-wilson/"><img class="icon" src="./media/icons/linkedin.png"></a>
                 </div>
             </div>
         </section>
